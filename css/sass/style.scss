@@ -12,18 +12,21 @@
  * Date: @DATE
  */
 
-// CSS Reset
-@import "partials/reset";
+// CSS Normalize
+@import "bp_partials/normalize";
 
 // Core
-@import "partials/variables";
-@import "partials/mixins";
+@import "bs_partials/variables";
+@import "bs_partials/mixins";
 
 // Grid system and page structure
-@import "partials/scaffolding";
+@import "bs_partials/scaffolding";
 
 // Styled patterns and elements
-@import "partials/type";
-@import "partials/forms";
-@import "partials/tables";
-@import "partials/patterns";
+@import "bs_partials/type";
+@import "bs_partials/forms";
+@import "bs_partials/tables";
+@import "bs_partials/patterns";
+
+// Styled print
+@import "bp_partials/print";
